@@ -1,0 +1,55 @@
+#informationBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-right: 5%;
+    margin-top: 100px;
+    gap: 10%;
+}
+
+.informationBoxPuff{
+    flex-basis: 250px;
+    background-color:  #088395;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.informationBoxPuff h2{
+    text-align: center;
+    color: white;
+
+}
+
+.informationBoxPuff li{
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 767px) {
+    .footerInformation{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    #informationBox{
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .informationBoxPuff{
+        min-height: 200px;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+    }
+
+}
