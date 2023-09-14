@@ -1,5 +1,5 @@
 body{
-    background-color: #071952;
+    background-color: #331D2C;
 
 }
 .site{
@@ -10,13 +10,15 @@ nav{
     width: 5%;
     display: flex;
     flex-direction: column;
-    background-color: #088395;
+    background-color: #3F2E3E;
     height: 500px;
+    border-radius: 0 10px 10px 0;
 }
 
 .navBar{
     flex-basis: 70px;
-    background-color: #088395;
+    background-color: #3F2E3E;
+    border-radius: 0 10px 10px 0;
 }
 
 .navBar a{
@@ -60,14 +62,14 @@ header{
 }
 
 header h1{
-    color: white;
+    color: #EFE1D1;
     font-size: 30px;
     text-align: center;
 }
 
 
 header h2{
-    color: white;
+    color: #EFE1D1;
     font-size: 20px;
     text-align: center;
 }
@@ -95,12 +97,12 @@ img{
 }
 
 .description {
-    color: #F2F7A1;
+    color: #EFE1D1;
     text-align: center;
 }
 
 .frontInfo{
-    color: #F2F7A1;
+    color: #EFE1D1;
     text-align: center;
 }
 
@@ -113,7 +115,7 @@ img{
 
 #reference{
     text-align: center;
-    color: white;
+    color: #EFE1D1;
 }
 
 #puffList{
@@ -128,7 +130,7 @@ img{
 .puff{
     min-height: 200px;
     width: 25%;
-    background-color: #088395;
+    background-color: #A78295;
     border-radius: 15px;
 }
 
@@ -136,7 +138,7 @@ img{
 footer{
     height: 80px;
     width: 100%;
-    background-color: #35A29F;
+    background-color: #A78295;
     clear: both;
 }
 
@@ -170,7 +172,7 @@ footer{
     
     .navBar{
         min-height: 40px;
-        background-color: #088395;
+        background-color: #3F2E3E;
     }
     .leftToNav{
         float: none;
