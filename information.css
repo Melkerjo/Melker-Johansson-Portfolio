@@ -4,33 +4,49 @@
     flex-wrap: nowrap;
     justify-content: center;
     padding-right: 5%;
-    margin-top: 100px;
-    gap: 10%;
+    margin-top: 50px;
+    gap: 5%;
 }
 
 .informationBoxPuff{
-    flex-basis: 20%;
+    flex-basis: 28%;
     background-color:  #088395;
-    padding: 5px;
     border-radius: 50%;
-    text-align: center;
+    position: relative;
+    padding-bottom: 28%;
 }
 
-.informationBoxPuff h2{
+.informationBoxPuffText{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.imgPuff{
+    background-color: #088395;
+    background-image: url("melker.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.informationBoxPuffText h2{
     text-align: center;
     color: white;
 
 }
 
-.informationBoxPuff ul{
+.informationBoxPuffText ul{
     display: inline-block;
 }
 
-.informationBoxPuff li{
+.informationBoxPuffText li{
     text-align: left;
     font-size: 18px;
     color: white;
 }
+
+
 
 @media (min-width: 767px) {
     .footerInformation{
@@ -52,10 +68,11 @@
     }
 
     .informationBoxPuff{
-        min-height: 200px;
+        flex-basis: 200px;
         width: 80%;
         margin-left: 10%;
         margin-bottom: 50px;
     }
+    
 
 }

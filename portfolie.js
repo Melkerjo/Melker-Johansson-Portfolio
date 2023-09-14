@@ -3,7 +3,7 @@
         var currentYear = new Date().getFullYear();
         copyrightElement.textContent = "© " + currentYear + " Melker Johansson. Alla rättigheter förbehållna.";
 
-// JavaScript
+
 const menuIcon = document.querySelector('.menu-icon');
 const mobileMenu = document.querySelector('.mobile-menu');
 
