@@ -18,8 +18,8 @@
 
 .informationBoxPuffText{
     position: absolute;
-    top: 10%;
-    left: 10%;
+    top: 12%;
+    left: 25%;
 }
 
 .imgPuff{
@@ -57,6 +57,22 @@
 
 }
 
+@media (max-width: 999px) {
+.informationBoxPuffText{
+    top: 9%;
+    left: 18%;
+}
+
+.informationBoxPuffText h2{
+    font-size: 18px;
+}
+.informationBoxPuffText li{
+    font-size: 14px;
+}
+
+}
+
+
 
 @media (max-width: 768px) {
 
@@ -72,6 +88,15 @@
         width: 80%;
         margin-left: 10%;
         margin-bottom: 50px;
+    }
+
+    .informationBoxPuffText{
+        top: 12%;
+        left: 18%;
+    }
+
+    .informationBoxPuffText li{
+        font-size: 14px;
     }
     
 

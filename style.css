@@ -13,6 +13,7 @@ nav{
     background-color: #3F2E3E;
     height: 500px;
     border-radius: 0 10px 10px 0;
+    z-index: 10;
 }
 
 .navBar{
@@ -199,6 +200,24 @@ footer{
     }
     .mobile-menu.open {
         display: block; /* När klassen "open" är tillagd, visa menyn */
+    }
+
+    .mainInfo{
+        flex-basis: 28%;
+        height: auto;
+    }
+    
+    .two{
+        flex-basis: 45%;
+        padding-bottom: 45%;
+    }
+
+    .one{
+        flex-basis: 22%;
+    }
+
+    .three{
+        flex-basis: 22%;
     }
 
     .description { 
